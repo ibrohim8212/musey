@@ -412,6 +412,10 @@ body {
   align-items: center;
 }
 
+.link__img {
+  display: block;
+}
+
 .header__list {
   display: flex;
   list-style: none;
