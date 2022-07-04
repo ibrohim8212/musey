@@ -1,0 +1,112 @@
+.footer{
+  background-color: #030303;
+  padding-bottom: 52px;
+  padding-top: 84px;
+}
+
+.footer__top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__all{
+  display: flex;
+}
+
+.musey__services{
+display: flex;
+justify-content: space-between;
+}
+
+.footer__list{
+  padding: 0;
+  list-style: none;
+  margin-left: 145px;
+}
+
+.footer__list:nth-child(2n){
+  margin-left: 119px;
+}
+
+.footer__link{
+  margin-bottom: 25px;
+  text-decoration: none;
+  font-style: normal;
+font-weight: 100;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.footer__link:hover{
+  color: #9D8665;
+}
+
+.footer__link:active{
+  color: #7E6C51;
+}
+
+.footer__sites{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.footer__sites-icon{
+  margin-left: 25px;
+}
+
+.footer__hr{
+  margin-bottom: 50px;
+  height: 3px;
+  background-color: #666;
+  border: none;
+  color: #666;
+}
+
+.footer__bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__p{
+  font-style: normal;
+font-weight: 100;
+font-size: 22px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+@media screen and (max-width: 1040px) {
+  .footer__top{
+    flex-direction: column;
+  }
+
+  .footer__sites{
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width:640px) {
+.footer__all{
+  flex-direction: column;
+}
+
+  .musey__services{
+    flex-direction: column;
+  }
+
+  .footer__list{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+  }
+
+  .footer__list:nth-child(2n){
+    margin: 0;
+  }
+
+  .footer__p:nth-child(2n){
+    display: none;
+  }
+}

@@ -1,0 +1,101 @@
+.welcome {
+  background-color: #030303;
+  background-image: url(../img/monalisa.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 220px) center;
+  padding-bottom: 131px;
+  padding-top: 125px;
+}
+
+.welcome-all {
+  display: flex;
+}
+
+.text__h2 {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  color: #FFFFFF;
+  max-width: 593px;
+  height: 180px;
+}
+
+.text__p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+  max-width: 445px;
+  height: 33px;
+  margin-bottom: 75px;
+  margin-top: 25px;
+}
+
+.text__button {
+  display: inline-block;
+  width: 360px;
+height: 75px;
+background: #710707;
+border-radius: 10px;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+border: none;
+}
+
+.text__button:hover{
+  background-color: #9D8665;
+}
+
+.welcome__link{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+.welcome{
+  background-image: none;
+}
+
+.welcome-all{
+  display: block;
+  text-align: center;
+}
+
+.text__h2{
+margin-left: auto;
+margin-right: auto;
+}
+
+.text__p{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text__button{
+  display: none;
+}
+
+.welcome__link{
+  display: block;
+}
+
+  .welcome__img{
+    display: block;
+    margin-top: 50px;
+    width: 728px;
+  }
+}
+
+@media screen and (max-width:742px) {
+  .welcome__img{
+    width: 380px;
+    height: 285px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
