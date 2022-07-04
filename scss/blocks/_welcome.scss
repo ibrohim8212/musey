@@ -37,15 +37,15 @@
 .text__button {
   display: inline-block;
   width: 360px;
-height: 75px;
-background: #710707;
-border-radius: 10px;
-font-style: normal;
-font-weight: 300;
-font-size: 22px;
-line-height: 26px;
-color: #FFFFFF;
-border: none;
+  height: 75px;
+  background: #710707;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  border: none;
 }
 
 .text__button:hover{
@@ -57,33 +57,33 @@ border: none;
 }
 
 @media screen and (max-width: 768px) {
-.welcome{
-  background-image: none;
-}
-
-.welcome-all{
-  display: block;
-  text-align: center;
-}
-
-.text__h2{
-margin-left: auto;
-margin-right: auto;
-}
-
-.text__p{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.text__button{
-  display: none;
-}
-
-.welcome__link{
-  display: block;
-}
-
+  .welcome{
+    background-image: none;
+  }
+  
+  .welcome-all{
+    display: block;
+    text-align: center;
+  }
+  
+  .text__h2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text__p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text__button{
+    display: none;
+  }
+  
+  .welcome__link{
+    display: block;
+  }
+  
   .welcome__img{
     display: block;
     margin-top: 50px;

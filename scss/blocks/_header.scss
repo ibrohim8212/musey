@@ -1,7 +1,7 @@
 .header {
-background-color: #030303;
-padding-top: 20px;
-padding-bottom: 20px;
+  background-color: #030303;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-all {
@@ -16,15 +16,15 @@ padding-bottom: 20px;
 }
 
 .header-list__icon {
-margin-left: 55px;
+  margin-left: 55px;
 }
 
 .icon__link {
   color: #fff;
   font-weight: 100;
-font-size: 22px;
-line-height: 26px;
-text-decoration: none;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration: none;
 }
 
 .icon__link:hover{
@@ -45,7 +45,7 @@ text-decoration: none;
   .header__list{
     display: none;
   }
-
+  
   .welcome__hamburger{
     display: inline-block;
     margin-right: 15px;
