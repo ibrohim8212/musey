@@ -13,11 +13,11 @@
   margin: 0;
   margin-bottom: 75px;
   font-family: 'Forum';
-font-style: normal;
-font-weight: 400;
-font-size: 80px;
-line-height: 90px;
-color: #9D8665;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  color: #9D8665;
 }
 
 .video__p{
@@ -26,10 +26,10 @@ color: #9D8665;
   max-width: 720px;
   height: 90px;
   font-style: normal;
-font-weight: 300;
-font-size: 22px;
-line-height: 38px;
-color: #000000;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #000000;
 }
 
 .video__big{
@@ -68,7 +68,7 @@ color: #000000;
 }
 
 .video__circle-black:hover{
-background-color: #710707;
+  background-color: #710707;
 }
 
 .video__circle{
@@ -93,29 +93,29 @@ background-color: #710707;
 @media screen and (max-width:1000px){
   .video__big{
     width: 728px;
-height: 329px;
+    height: 329px;
   }
-
+  
   .video__small{
     width: 354px;
-height: 199px;
+    height: 199px;
   }
-
+  
   .video__item:nth-child(2n){
     display: none;
   }
 }
 
 @media screen and (max-width:745px){
-.video__big{
-  width: 380px;
-height: 172px;
-}
-
-.video__small{
-  width: 180px;
-height: 101px;
-}
+  .video__big{
+    width: 380px;
+    height: 172px;
+  }
+  
+  .video__small{
+    width: 180px;
+    height: 101px;
+  }
 }
 
 @media screen and (max-width:480px) {
