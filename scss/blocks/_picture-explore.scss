@@ -235,3 +235,19 @@
     
   }
 }
+
+@media screen and (max-width:405px){
+.picture-explore-light{
+  max-width: 190px;
+  height: 400px;
+}
+
+  .separation{
+    height: 400px;
+  }
+
+  .picture-explore-dark{
+    max-width: 300px;
+    height: 400px;
+  }
+}

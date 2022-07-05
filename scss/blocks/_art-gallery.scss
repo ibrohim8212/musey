@@ -80,3 +80,21 @@
     line-height: 60px;
   }
 }
+
+@media screen and (max-width:360px){
+  .art__imgs{
+    width: 150px;
+  }
+  
+  .no-head{
+    width: 150px;
+  }
+  
+  .surroundings-louver{
+    width: 150px;
+  }
+  
+  .louver{
+    width: 150px;
+  }
+}

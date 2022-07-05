@@ -125,3 +125,13 @@
     line-height: 60px;
   }
 }
+
+@media screen and (max-width:405px){
+.video__big{
+  width: 295px;
+}
+
+.video__small{
+  width: 150px;
+}
+}

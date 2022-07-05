@@ -557,6 +557,26 @@ body {
     margin-right: auto;
   }
 }
+@media screen and (max-width: 405px) {
+  .text__h2 {
+    width: 248px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .text__p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .welcome__img {
+    width: 300px;
+    height: 250px;
+  }
+}
 .virtual {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -688,6 +708,13 @@ body {
   }
 }
 @media screen and (max-width: 405px) {
+  .virtual__h2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0;
+  }
+
   .virtual__list {
     padding: 0;
   }
@@ -913,6 +940,21 @@ body {
     right: 154px;
   }
 }
+@media screen and (max-width: 405px) {
+  .picture-explore-light {
+    max-width: 190px;
+    height: 400px;
+  }
+
+  .separation {
+    height: 400px;
+  }
+
+  .picture-explore-dark {
+    max-width: 300px;
+    height: 400px;
+  }
+}
 .video-journey {
   padding-bottom: 75px;
   padding-top: 75px;
@@ -1037,6 +1079,15 @@ body {
     line-height: 60px;
   }
 }
+@media screen and (max-width: 405px) {
+  .video__big {
+    width: 295px;
+  }
+
+  .video__small {
+    width: 150px;
+  }
+}
 .art-gallery {
   padding-top: 60px;
   background-color: #030303;
@@ -1114,6 +1165,23 @@ body {
     font-weight: 400;
     font-size: 40px;
     line-height: 60px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .art__imgs {
+    width: 150px;
+  }
+
+  .no-head {
+    width: 150px;
+  }
+
+  .surroundings-louver {
+    width: 150px;
+  }
+
+  .louver {
+    width: 150px;
   }
 }
 .buy-tickets {
@@ -1253,6 +1321,16 @@ body {
     height: 200px;
   }
 }
+@media screen and (max-width: 435px) {
+  .ticket__img-top {
+    width: 310px;
+  }
+
+  .ticket__img {
+    width: 310px;
+    height: 150px;
+  }
+}
 .contacts {
   padding-bottom: 74px;
 }
@@ -1327,6 +1405,17 @@ body {
     height: 248px;
   }
 }
+@media screen and (max-width: 405px) {
+  .contacts__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .contacts__map {
+    width: 310px;
+  }
+}
 .footer {
   background-color: #030303;
   padding-bottom: 52px;
@@ -1376,6 +1465,8 @@ body {
 }
 
 .footer__sites {
+  padding: 0;
+  list-style: none;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -1437,5 +1528,14 @@ body {
 
   .footer__p:nth-child(2n) {
     display: none;
+  }
+}
+@media screen and (max-width: 355px) {
+  .footer__sites {
+    justify-content: center;
+  }
+
+  .footer__sites-icon {
+    margin-left: 5px;
   }
 }/*# sourceMappingURL=main.css.map */
