@@ -1,0 +1,145 @@
+.buy-tickets{
+  padding-top: 75px;
+}
+
+.ticket__title{
+  font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90px;
+text-transform: uppercase;
+color: #9D8665;
+}
+
+.ticket__hr{
+  max-width: 1440px;
+  height: 3px;
+  background-color: #710707;
+  color: #710707;
+  border: none;
+}
+
+.ticket__box{
+  display: flex;
+    justify-content: space-between;
+      margin-top: 75px;
+}
+
+.ticket__title-mini{
+  font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+margin: 0;
+}
+
+.ticket__title-mini:nth-child(3n){
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.ticket__offers{
+  display: flex;
+  align-items: center;
+}
+
+.tickets__check{
+  margin-right: 23px;
+}
+
+.ticket__how-much-buy{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid;
+}
+
+.ticket__link{
+  text-decoration: none;
+}
+
+.ticket__number{
+  margin: 0;
+}
+
+.ticket__button{
+  display: inline-block;
+  width: 175px;
+height: 50px;
+background: #000000;
+color: #fff;
+border-radius: 2px;
+}
+
+.ticket__img-link{
+  margin-top: 60px;
+}
+
+.ticket__img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+
+
+@media screen and (max-width:1181px) {
+  .ticket__types{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1055px){
+.ticket__img{
+  width: 768px;
+height: 300px;
+}
+}
+
+@media screen and (max-width:905px) {
+  .ticket__img-top{
+    width: 444px;
+height: 340px;
+  }
+}
+
+@media screen and (max-width:775px) {
+  .ticket__img{
+    width: 420px;
+height: 300px;
+  }
+}
+
+@media screen and (max-width:635px){
+  .ticket__box{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ticket__title-mini{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:450px) {
+.ticket__title{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+  .ticket__img-top{
+    width: 380px;
+height: 160px;
+  }
+}
+
+@media screen and (max-width:435px) {
+  .ticket__img{
+    width: 390px;
+    height: 200px;
+  }
+}

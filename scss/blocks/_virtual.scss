@@ -130,3 +130,17 @@
     line-height: 19px;
   }
 }
+
+@media screen and (max-width:405px){
+  .virtual__list{
+    padding: 0;
+  }
+  
+  .virtual__icon{
+    margin-right: 0;
+  }
+  
+  .virtual__icon:nth-child(3n){
+    margin-right: 0;
+  }
+}

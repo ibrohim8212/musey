@@ -1,0 +1,76 @@
+.contacts{
+  padding-bottom: 74px;
+}
+
+.contacts__title{
+  font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90px;
+text-transform: uppercase;
+color: #9D8665;
+}
+
+.contacts__hr{
+  max-width: 1440px;
+  height: 3px;
+  background-color: #710707;
+  color: #710707;
+  border: none;
+}
+
+.contacts__box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__title-mini{
+  font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+margin-bottom: 50px;
+}
+
+.contacts__list{
+display: flex;
+flex-direction: column;
+}
+
+.contacts__item{
+  text-decoration: none;
+  font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+margin-bottom: 25px;
+}
+
+@media screen and (max-width:1365px) {
+  .contacts__box{
+    flex-direction: column;
+  }
+
+  .contacts__map{
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width:975px){
+.contacts__map{
+  width: 728px;
+height: 476px;
+}
+}
+
+@media screen and (max-width:745px){
+  .contacts__map{
+    width: 380px;
+height: 248px;
+  }
+}

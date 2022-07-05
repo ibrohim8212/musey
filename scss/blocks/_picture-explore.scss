@@ -198,12 +198,19 @@
 }
 
 @media screen and (max-width: 515px){
+  .explore__h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+}
+
   .separation {
     right: 201px;
   }
 }
 
 @media screen and (max-width: 490px){
+
   .separation {
     right: 189px;
   }
